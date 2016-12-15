@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+		<script type="text/javascript">
+    	var splitArray = new Array();
+		var string="太平洋、大西洋、印度洋、北冰洋";
+		var regex = /、/;
+		splitArray=string.split(regex);
+		for(i=0; i < splitArray.length; i++){
+		 document.write(splitArray[i] + "<br>");
+		}
+    </script>
+</body>
